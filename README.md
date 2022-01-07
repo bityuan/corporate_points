@@ -49,5 +49,4 @@
     ---
 
 
-- api doc https://doc.33.cn/index.do#/ffff-1528187631483-10163178175-0022/front/interfaceDetail/ffff-1562750492249-10163178175-0142
 
