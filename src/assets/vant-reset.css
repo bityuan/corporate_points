@@ -1,0 +1,100 @@
+.van-button{
+    border-radius:6px;
+}
+.van-button--primary{
+    background:rgba(113,144,255,1);
+    border:0 none;
+}
+.van-button--plain.van-button--primary{
+    color: rgba(113,144,255,1);
+}
+.van-button--primary.grey {
+    background-color: #8E92A3;
+    border-radius:4px;
+}
+.van-hairline--top-bottom::after {
+    border-width: 0;
+}
+.select-cell .van-cell__title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.select-cell .van-cell__title > span,
+.modify-page .van-field__label,
+.modify-page .van-cell--clickable .van-cell__title > span
+ {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    margin-right: 12px;
+}
+.modify-page .van-cell--clickable .van-cell__title > span {
+    float: left;
+}
+.modify-page .van-cell__right-icon {
+    margin-top: 2px;
+}
+.van-cell__value .van-dropdown-menu {
+    height: 26px;
+}
+.select-cell .van-dropdown-menu__item{
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.van-cell__value {
+    position: relative;
+}
+.message-as-unit .van-field__error-message{
+    position: absolute;
+    top: 17px;
+    left: 13px;
+    color: grey;
+    transform: scale(.6);
+    transform-origin: 0 0 0;
+}
+.van-cell{
+    line-height: 30px;
+}
+.van-icon-scan{
+    background-image: url('./scan@2x.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.van-icon-scan::before {
+    opacity: 0;
+}
+.van-picker-column {
+    position: relative;
+}
+.van-picker-column::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 100vw;
+    background:rgba(244,244,248,1);
+    z-index: 0;
+    top: 88px;
+}
+
+.van-popup.van-popup--bottom,
+.van-popup.van-popup--bottom .van-picker
+{
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.van-picker__cancel{
+    color:rgba(142,146,163,1);
+}
+.van-picker__title{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(51,54,73,1);
+}
+.van-hairline--top-bottom.van-picker__toolbar {
+    background:rgba(243,243,243,1);
+    height: 50px;
+    line-height: 50px;
+}
