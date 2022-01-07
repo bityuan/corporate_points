@@ -14,9 +14,13 @@
   ---
 
   项目名称:
+  
     text: '',
+    
   初始值
+  
     value: 0,
+    
   开源钱包部署地址 example:https://aiqianbao.net/fzmparanode/ :
     url: '',
   交易发送地址 example:http://token.aiqianbao.net/sendtx?txhash= :
